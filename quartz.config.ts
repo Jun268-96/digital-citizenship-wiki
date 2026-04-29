@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "디지털시민교육 위키",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "ko-KR",
+    baseUrl: "Jun268-96.github.io/digital-citizenship-wiki",
+    ignorePatterns: ["private", "templates", ".obsidian", "training"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
